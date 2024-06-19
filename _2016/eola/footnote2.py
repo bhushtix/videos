@@ -193,7 +193,7 @@ class CountRowsAndColumns(Scene):
         matrix = Matrix([
             [2, 0],
             [-1, 1],
-            [-2, 1],
+            [-1, 1],
         ])
         matrix.set_column_colors(X_COLOR, Y_COLOR)
         rows_brace = Brace(matrix, LEFT)
